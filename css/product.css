@@ -1,0 +1,102 @@
+.productcontent{
+    box-shadow:midnightblue;
+    color: rgb(58, 57, 57);
+    width: 1248px;
+    padding-top: 50px;
+    margin: auto;
+    background-color: #ddd;
+}
+
+/* ------------------------- */
+.productnav{
+	float: center;
+    overflow: hidden;
+    background-color: rgba(50, 200, 220, 0.5);
+    height:40px;
+	width:600px;
+	margin: auto;
+	border-radius: 5px;
+}
+.productnav ul{
+	margin:0px;
+	padding:0px;
+}
+.productnav li{
+	height:40px;
+	width:148px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:40px;
+	border:1px solid;
+	font-size:20px;
+	color:rgba(0, 0, 200, 0.2);
+	font-family: monotype corsiva;
+}
+.productnav ul li a{
+	text-decoration:none;
+	background-color:rgba(0, 180, 220, 0.4);
+	color:white;
+	display:block;
+}
+.productnav ul li a:hover{
+	font-size:22px;
+	background-color:#ddd;
+	color:black;
+	text-decoration:underline;
+}
+.productcontent h1{
+    padding-left: 20px;
+}
+/* -------------------------- */
+.card{
+    margin: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    display: inline-block;
+    text-align: left;
+    font-family: arial;
+}
+.productname{
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 220px;
+    padding-top: 20px;
+    font-size: 22px;
+    /* border: 1px solid red; */
+}
+.productprice{
+    float: left;
+    width: 55px;
+    font-size: 20px;
+    text-align: right;
+    font-weight:bold;
+    padding-top: 21px;
+    margin-right: 10px;
+    font-family: monotype corsiva;
+    /* border: 1px solid red; */
+}
+.productcolor{
+    color: grey;
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.card button {
+    color: white;
+    background-color: rgba(0, 200, 250, 0.9);
+    text-align: center;
+    padding-right: 30px;
+    width: 100%;
+    font-size: 18px;
+  }
+.card button:hover {
+    opacity: 0.7;
+}
+  

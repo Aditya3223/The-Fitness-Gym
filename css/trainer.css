@@ -1,0 +1,94 @@
+.trainerContent{
+    width: 1200px;
+    height: 1950px;
+    margin: auto;
+    color: #333;
+    background-color: aliceblue;
+}
+#availabletrainers{
+    text-align: center;
+}
+.trainerContent h1{
+    width: 1200px;
+    margin: auto;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+}
+.trainerInfo{
+    float: left;
+    margin: auto;
+}
+
+#trainerDetails{
+    width: 500px;
+    height: 350px;
+    overflow: scroll;
+    display: inline-block;
+    margin-left: 60px;
+}
+/* -----------------image 00----------------- */
+#trainer00{
+    background-image: url(../images/trainer/trainer00.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    width: 500px;
+    height: 350px;
+    float: left;
+    color: cornsilk;
+}
+#trainer00 h2{
+    font-family:'Times New Roman', Times, serif;
+}
+/* -----------------image 01----------------- */
+#trainer01{
+    background-image: url(../images/trainer/mh-trainer-2-1533576998.png);
+    background-size: cover;
+    margin-left: 60px;
+    width: 500px;
+    height: 350px;
+    float: right;
+    color: cornsilk;
+}
+#trainer01 h2{
+    font-family:'Times New Roman', Times, serif;
+}
+/* -----------------image 01----------------- */
+#trainer02{
+    background-image: url(../images/trainer/BecomePersonalTrainer-1024x683.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    width: 500px;
+    height: 350px;
+    float: left;
+    color: cornsilk;
+}
+#trainer02 h2{
+    font-family:'Times New Roman', Times, serif;
+}
+/* -----------------image 01----------------- */
+#trainer03{
+    background-image: url(../images/trainer/boxing.png);
+    background-size: cover;
+    margin-left: 60px;
+    width: 500px;
+    height: 350px;
+    float: right;
+    color: cornsilk;
+}
+#trainer03 h2{
+    font-family:'Times New Roman', Times, serif;
+}
+/* -----------------image 01----------------- */
+#trainer04{
+    background-image: url(../images/trainer/istockphoto-1179814993-612x612.jpg);
+    background-size: cover;
+    margin-left: 60px;
+    width: 500px;
+    height: 350px;
+    float: left;
+    color:#333;
+}
+#trainer04 h2{
+    font-family:'Times New Roman', Times, serif;
+}

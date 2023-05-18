@@ -1,0 +1,1010 @@
+.contents{
+    /* border: 1px solid white; */
+    color: rgb(58, 57, 57);
+    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin: auto;
+    background-color: #ddd;
+    /* box-shadow: ; */
+}
+/* -------------fitness nav--------------- */
+.fitnessNav{
+	float: center;
+    overflow: hidden;
+    background-color: rgba(50, 200, 220, 0.5);
+    height:40px;
+	width:750px;
+	margin: auto;
+	border-radius: 5px;
+}
+.fitnessNav ul{
+	margin:0px;
+	padding:0px;
+}
+.fitnessNav li{
+	height:40px;
+	width:148px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:40px;
+	border:1px solid;
+	font-size:20px;
+	color:rgba(0, 0, 200, 0.2);
+	font-family: monotype corsiva;
+}
+.fitnessNav ul li a{
+	text-decoration:none;
+	background-color:rgba(0, 180, 220, 0.4);
+	color:white;
+	display:block;
+}
+.fitnessNav ul li a:hover{
+	font-size:22px;
+	background-color:#ddd;
+	color:black;
+	text-decoration:underline;
+}
+.fitnessNav h1{
+    padding-left: 20px;
+}
+
+
+
+
+
+#yoga0{
+    background-image: url(../images/yoga/YogaSeHiHoga.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 450px;
+    margin: auto;
+}
+.yogaDescription{
+    overflow: scroll;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+#yoga1{
+    background-image: url(../images/yoga/1_childs_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga2{
+    background-image: url(../images/yoga/2_downward_facing_dog.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga3{
+    background-image: url(../images/yoga/3_Plank.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+}
+#yoga4{
+    background-image: url(../images/yoga/4_four_Limbed_staff_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga5{
+    background-image: url(../images/yoga/5_cobra_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga6{
+    background-image: url(../images/yoga/6_tree_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga7{
+    background-image: url(../images/yoga/7_triangle_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga8{
+    background-image: url(../images/yoga/8_seated_half_spinal_twist_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga9{
+    background-image: url(../images/yoga/9_bridge_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#yoga10{
+    background-image: url(../images/yoga/10_corpse_pose.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+/* -------------------Nutritional guide------------------- */
+#nutrition00{
+    background-image: url(../images/nutrition/nutrition00.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}
+#nutrition01{
+    background-image: url(../images/nutrition/nutrition01.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition02{
+    background-image: url(../images/nutrition/nutrition02.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition03{
+    background-image: url(../images/nutrition/nutrition03.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition04{
+    background-image: url(../images/nutrition/nutrition04.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition05{
+    background-image: url(../images/nutrition/nutrition05.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition06{
+    background-image: url(../images/nutrition/nutrition06.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition07{
+    background-image: url(../images/nutrition/nutrition07.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition08{
+    background-image: url(../images/nutrition/nutrition08.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition09{
+    background-image: url(../images/nutrition/nutrition09.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition10{
+    background-image: url(../images/nutrition/nutrition10.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition11{
+    background-image: url(../images/nutrition/nutrition11.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition12{
+    background-image: url(../images/nutrition/nutrition12.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition13{
+    background-image: url(../images/nutrition/nutrition13.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition14{
+    background-image: url(../images/nutrition/nutrition14.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition15{
+    background-image: url(../images/nutrition/nutrition15.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition16{
+    background-image: url(../images/nutrition/nutrition16.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition17{
+    background-image: url(../images/nutrition/nutrition17.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition18{
+    background-image: url(../images/nutrition/nutrition18.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition19{
+    background-image: url(../images/nutrition/nutrition19.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition20{
+    background-image: url(../images/nutrition/nutrition20.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition21{
+    background-image: url(../images/nutrition/nutrition21.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#nutrition22{
+    background-image: url(../images/nutrition/nutrition22.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+/* ---------------------events--------------------- */
+#event01{
+    background-image: url(../images/events/event01.webp);
+    background-size: cover;
+    width: 600px;
+    height: 667px;
+    margin: auto;
+}
+#event02{
+    background-image: url(../images/events/event02.webp);
+    background-size: cover;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+}
+#event03{
+    background-image: url(../images/events/event03.webp);
+    background-size: cover;
+    width: 700px;
+    height: 900px;
+    margin: auto;
+}
+#event04{
+    background-image: url(../images/events/event04.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event05{
+    background-image: url(../images/events/event05.webp);
+    background-size: cover;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+}
+#event06{
+    background-image: url(../images/events/event06.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event07{
+    background-image: url(../images/events/event07.webp);
+    background-size: cover;
+    width: 900px;
+    height: 350px;
+    margin: auto;
+}
+#event08{
+    background-image: url(../images/events/event08.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event09{
+    background-image: url(../images/events/event09.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event10{
+    background-image: url(../images/events/event10.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event11{
+    background-image: url(../images/events/event11.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event12{
+    background-image: url(../images/events/event12.webp);
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+#event13{
+    background-image: url(../images/events/event13.webp);
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
+/* -----------------------Tips--------------------------- */
+#tip01{
+    background-image: url(../images/tips/01-coffee.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip02{
+    background-image: url(../images/tips/02-plan.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip03{
+    background-image: url(../images/tips/03-playlist.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip04{
+    background-image: url(../images/tips/04-airplane.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip05{
+    background-image: url(../images/tips/05-warmup.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip06{
+    background-image: url(../images/tips/06-foamroll.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip07{
+    background-image: url(../images/tips/07-strength.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip08{
+    background-image: url(../images/tips/08-rest.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip09{
+    background-image: url(../images/tips/09-sets.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip10{
+    background-image: url(../images/tips/10-compound.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip11{
+    background-image: url(../images/tips/11-weights.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip12{
+    background-image: url(../images/tips/12-mentalconnection.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip13{
+    background-image: url(../images/tips/13-log.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip14{
+    background-image: url(../images/tips/14-hiit.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip15{
+    background-image: url(../images/tips/15-monitor.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip16{
+    background-image: url(../images/tips/16-program.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip17{
+    background-image: url(../images/tips/17-enjoy.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip18{
+    background-image: url(../images/tips/18-sleep.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+#tip19{
+    background-image: url(../images/tips/19-rest.webp);
+    background-size: cover;
+    width: 870px;
+    height: 580px;
+    margin: auto;
+}
+/* --------------boxing------------------- */
+
+.boxingcontent{
+    color: white;
+    width: 1300px;
+    margin: auto;
+    background-color: #ddd;
+}
+#boxing00{
+    background-image: url(../images/boxing/boxing00.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 1298px;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#boxing00 p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 670px;
+}
+#boxing00 h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 200px;
+    text-align: left;
+    margin-left: 670px;
+}
+.button1{
+    float: left;
+    width: 270px;
+    height: 25px;
+    background-color: rgba(2, 191, 248, 0.986);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 670px;
+    cursor: pointer;
+}
+.button1 a{
+    color: white;
+    text-decoration: none;
+}
+.button1:hover{
+    float: left;
+    background-color: rgba(52, 179, 218, 0.664);
+    text-align:center;
+    font-size: 22px;
+    color:springgreen;
+}
+.button2{
+    float: left;
+    width: 250px;
+    height: 25px;
+    background-color: rgba(2, 191, 248, 0.986);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button2 a{
+    color: white;
+    text-decoration: none;
+}
+.button2:hover{
+    float: left;
+    background-color: rgba(52, 179, 218, 0.664);
+    text-align:center;
+    font-size: 22px;
+    color:springgreen;
+}
+.boxingText{
+    width: 1300px;
+    height: 1850px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+#lefttextforboxing{
+    
+    width: 600px;
+    height: 400px;
+    float: left;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#righttextforboxing{   
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#boxing01{
+    background-image: url(../images/boxing/boxing01.jpg);
+    background-size: cover;
+    float: left;
+    margin: 40px 0px 40px 60px;
+    width: 600px;
+    height: 600px;
+}
+#boxing02{
+    background-image: url(../images/boxing/boxing02.jpg);
+    background-size: cover;
+    float: left;
+    margin: 40px 0px 40px 40px;
+    width: 240px;
+    height: 240px;
+}
+#boxing03{
+    background-image: url(../images/boxing/boxing03.jpg);
+    background-size: cover;
+    float: left;
+    margin: 40px 0px 40px 40px;
+    width: 240px;
+    height: 240px;
+}
+
+#boxing04{
+    background-image: url(../images/boxing/boxing04.jpg);
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 40px 40px;
+    width: 520px;
+    height: 320px;
+}
+#boxingad{
+    background-image: url(../images/boxing/boxingad.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 1298px;
+    height: 700px;
+    border: 1px solid red;
+    border-radius: 5px;
+    float: left;
+}
+
+/* --------------------gym---------------------- */
+/* -------------Excercises nav--------------- */
+.excercisesNav{
+	float: center;
+    overflow: hidden;
+    background-color: rgba(50, 200, 220, 0.5);
+    height:40px;
+	width:1050px;
+	margin: auto;
+	border-radius: 5px;
+}
+.excercisesNav ul{
+	margin:0px;
+	padding:0px;
+}
+.excercisesNav li{
+	height:40px;
+	width:148px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:40px;
+	border:1px solid;
+	font-size:20px;
+	color:rgba(0, 0, 200, 0.2);
+	font-family: monotype corsiva;
+}
+.excercisesNav ul li a{
+	text-decoration:none;
+	background-color:rgba(0, 180, 220, 0.4);
+	color:white;
+	display:block;
+}
+.excercisesNav ul li a:hover{
+	font-size:22px;
+	background-color:#ddd;
+	color:black;
+	text-decoration:underline;
+}
+.excercisesNav h1{
+    padding-left: 20px;
+}
+/* -------------chest content----------------- */
+#chestContent{
+    background-image: url(../images/gym/chest/chest05.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#chestContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 670px;
+}
+#chestContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 670px;
+}
+
+#backContent{
+    background-image: url(../images/gym/back/back05.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#backContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+#backContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+.button3{
+    float: left;
+    width: 250px;
+    height: 24px;
+    background-color: rgba(2, 191, 248, 0.986);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.button3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.button3:hover{
+    float: left;
+    background-color: rgba(52, 179, 218, 0.664);
+    text-align:center;
+    font-size: 22px;
+    color:springgreen;
+}
+#shoulderContent{
+    background-image: url(../images/gym/shoulder/shoulder04.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#shoulderContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 670px;
+}
+#shoulderContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 670px;
+}
+
+#bicepsContent{
+    background-image: url(../images/gym/biceps/biceps02.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#bicepsContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+#bicepsContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+/*  */
+#tricepsContent{
+    background-image: url(../images/gym/triceps/triceps01.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#tricepsContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 550px;
+}
+#tricepsContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 550px;
+}
+/*  */
+
+#legsContent{
+    background-image: url(../images/gym/legs/legs02.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#legsContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-left: 20px;
+}
+#legsContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/*  */
+#absContent{
+    background-image: url(../images/gym/abs/abs07.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 998px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#absContent p{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 670px;
+}
+#absContent h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 670px;
+}
+
+/* .excercisesTab{
+    float: left;
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    position: relative;
+} */
+/* .excercisesTab {
+    position: relative;
+    text-align: left;
+    color: white;
+    margin: auto;
+    margin-left: 80px;
+}
+.exerciseBox {
+    margin: auto;
+    padding-left: 50px;
+    top: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 780px;
+    height: 470px;
+    transform: translate(-50%, -50%);    
+    
+}
+.excercisesTab a{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.excercisesTab a:hover{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.excercisesTab h1{
+    color:white;
+}
+#linkTo{
+    color:rgba(50, 200, 220);
+    font-family: algerian;
+} */
+/* .excercisesTab a{
+    float: left;
+    color: white;
+    font-family: monotype corsiva;
+    font-size: 24px;
+    position: absolute;
+}
+.exerciseBox{
+    position: absolute;
+    float: left;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+.exerciseBox:hover{
+    position: relative;
+    border: 2px dashed white;
+    width: 800px;
+    height: 450px;
+    margin-top: 20px;
+    opacity: 0.7;
+    padding-left: 50px;
+    font-size: 25px;
+} */
+
+/* 
+Container holding the image and the text
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+Bottom left text
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+Top left text
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+Top right text
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+Bottom right text
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+Centered text
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+

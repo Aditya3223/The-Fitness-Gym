@@ -1,0 +1,105 @@
+.logincontainer{
+    width: 380px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px #333;
+}
+
+.loginheader{
+    text-align: center;
+    padding-top: 75px;
+}
+.loginheader h1{
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.loginmain{
+    text-align: center;
+}
+.loginmain input[type=text],input[type=password]{
+     width: 300px;
+     height: 40px;
+     border: none;
+     box-sizing: border-box;
+     font-size: 15px;
+     color: #333;
+     margin-bottom: 40px;
+     outline: none;
+}
+.loginmain button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight:700;
+    padding-right: 30px;
+}
+.loginmain button{
+    background-color: #83acf1;
+}
+.loginmain button:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #7799d4;
+}
+.loginmain input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+} 
+
+
+/* ------------------Register----------------- */
+.registerContainer{
+    
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px #333;
+    padding-left: 50px;
+}
+.registerMain input,button{
+    /* width: 200px; */
+    border: 1px solid red;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    margin: auto;
+}
+.registerMain textarea
+{
+outline: none;
+}
+.registerMain th
+{
+    text-align: left;
+}
+.registerHeader{
+    text-align: center;
+    padding-top: 60px;   
+}
+.registerHeader h1{
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+/* 
+.main input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+} 
+*/

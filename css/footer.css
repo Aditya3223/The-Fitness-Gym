@@ -1,0 +1,201 @@
+.footerBody{
+    font-family: sans-serif;
+}
+.footerContainer{
+    width: 1300px;
+	height: 288px;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgba(0, 0, 100, 0.2);
+    box-shadow: 0 0 15px #333;
+    /* border: 1px solid black; */
+}
+/* ---------------Address Block---------------- */
+.addressBlock{
+    width: 230px;
+	height: 238px;
+    float: left;
+    border-radius: 15px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid black; */
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #ddd;
+}
+.addressBlock a{
+    color: #ddd;
+}
+.addressBlock a:hover{
+    font-size: 20px;
+    color: #ddd;
+}
+.addressBlock ul{
+	margin:0px;
+	padding:0px;
+}
+.addressBlock li{
+	width:148px;
+	float:left;
+	list-style:none;
+	font-size:18px;
+	color:rgba(0, 0, 100, 0.2);
+	font-family: monotype corsiva;
+    color: #ddd;
+}
+.addressBlock ul li a{
+	text-decoration:none;
+	color:#ddd;
+}
+.addressBlock ul li a:hover{
+	font-size:22px;
+	color:blueviolet;
+	text-decoration:underline;
+}
+/* ---------------Address Block End---------------- */
+/* ---------------Services, Fitness, Product Block starts---------------- */
+.servicesBlock,.fitnessBlock,.productBlock{
+    width: 180px;
+	height: 238px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #ddd;
+
+}
+.servicesBlock a{
+    color: #ddd;
+}
+.servicesBlock a:hover{
+    font-size: 20px;
+    color: #ddd;
+}
+.fitnessBlock a{
+    color: #ddd;
+}
+.fitnessBlock a:hover{
+    font-size: 20px;
+    color: #ddd;
+}
+
+.productBlock a{
+    color: #ddd;
+}
+.productBlock a:hover{
+    font-size: 20px;
+    color: #ddd;
+}
+
+/* ---------------------- */
+.servicesBlock ul{
+	margin:0px;
+	padding:0px;
+}
+.servicesBlock li{
+	width:148px;
+	float:left;
+	list-style:none;
+	font-size:18px;
+	color:rgba(0, 0, 100, 0.2);
+	font-family: monotype corsiva;
+    color: #ddd;
+}
+.servicesBlock ul li a{
+	text-decoration:none;
+	color:#ddd;
+}
+.servicesBlock ul li a:hover{
+	font-size:22px;
+	color:thistle;
+	text-decoration:underline;
+}
+/* ------------------------------ */
+.fitnessBlock ul{
+	margin:0px;
+	padding:0px;
+}
+.fitnessBlock li{
+	width:148px;
+	float:left;
+	list-style:none;
+	font-size:18px;
+	color:rgba(0, 0, 100, 0.2);
+	font-family: monotype corsiva;
+    color: #ddd;
+}
+.fitnessBlock ul li a{
+	text-decoration:none;
+	color:#ddd;
+}
+.fitnessBlock ul li a:hover{
+	font-size:22px;
+	color:thistle;
+	text-decoration:underline;
+}
+/* ------------------------------ */
+.productBlock ul{
+	margin:0px;
+	padding:0px;
+}
+.productBlock li{
+	width:148px;
+	float:left;
+	list-style:none;
+	font-size:18px;
+	color:rgba(0, 0, 100, 0.2);
+	font-family: monotype corsiva;
+    color: #ddd;
+}
+.productBlock ul li a{
+	text-decoration:none;
+	color:#ddd;
+}
+.productBlock ul li a:hover{
+	font-size:22px;
+	color:thistle;
+	text-decoration:underline;
+}
+/* --------------------Services, Fitness, Product Block ends-----------------  */
+.addressBlock,.servicesBlock,.fitnessBlock,.productBlock,.socialMediaBlock h4{
+    font-family: monotype corsiva;
+    font-size: 19px;
+}
+.socialMediaBlock{
+    width: 300px;
+	height: 238px;
+    float: left;
+    border-radius: 0px 15px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid black; */
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 60px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+#socialBlock{
+    width: 150px;
+}
+img{
+    float: left;
+}
+img:hover{
+    height: 45px;
+    width: 45px;
+}
+
+#footerNote{
+    /* border: 1px solid red; */
+    width: 1240px;;
+    height: 40px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 60px;
+    font-size: 18px;
+    color: #ddd;
+    font-family: monotype corsiva;
+}

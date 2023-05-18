@@ -1,0 +1,572 @@
+
+.excercisesImage{
+    background-color: #ddd;
+    margin: auto;
+    width: 1200px;
+    border: 1px solid red;
+    
+}
+
+.labelView{
+    color: snow;
+    font-size: 100px;
+    font-family: Brush Script MT;
+    padding: 150px 0px 0px 450px;
+    position:absolute;
+}
+.quote
+{
+    color: snow;
+    font-size: 70px;
+    font-family: Brush Script MT;
+    padding-top: 250px;
+    text-align: center;
+}
+.excerciseDescription{
+    padding-left:100px;
+    
+}
+/* ------------full body parts------------- */
+/* -----------chest-------------- */
+.chestExcerciseImage{
+    background-image: url("../images/gym/chest/chestCover.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#chest001{
+    background-image: url("../images/gym/chest/chest001.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest002{
+    background-image: url("../images/gym/chest/chest002.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest003{
+    background-image: url("../images/gym/chest/chest003.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest004{
+    background-image: url("../images/gym/chest/chest004.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest01{
+    background-image: url("../images/gym/chest/chest01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest02{
+    background-image: url("../images/gym/chest/chest02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest03{
+    background-image: url("../images/gym/chest/chest03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest04{
+    background-image: url("../images/gym/chest/chest04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest05{
+    background-image: url("../images/gym/chest/chest05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest06{
+    background-image: url("../images/gym/chest/chest06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest07{
+    background-image: url("../images/gym/chest/chest07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest08{
+    background-image: url("../images/gym/chest/chest08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest09{
+    background-image: url("../images/gym/chest/chest09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#chest10{
+    background-image: url("../images/gym/chest/chest10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+/* -------------back-------------- */
+.backExcerciseImage{
+    background-image: url("../images/gym/back/back01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#back001{
+    background-image: url("../images/gym/back/back001.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back002{
+    background-image: url("../images/gym/back/back002.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back003{
+    background-image: url("../images/gym/back/back003.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back01{
+    background-image: url("../images/gym/back/back01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back02{
+    background-image: url("../images/gym/back/back02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back03{
+    background-image: url("../images/gym/back/back03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back04{
+    background-image: url("../images/gym/back/back04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back05{
+    background-image: url("../images/gym/back/back05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back06{
+    background-image: url("../images/gym/back/back06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back07{
+    background-image: url("../images/gym/back/back07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back08{
+    background-image: url("../images/gym/back/back08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back09{
+    background-image: url("../images/gym/back/back09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#back10{
+    background-image: url("../images/gym/back/back10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+/* --------------------------------- */
+.shoulderExcerciseImage{
+    background-image: url("../images/gym/shoulder/shoulder01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#shoulder001{
+    background-image: url("../images/gym/shoulder/shoulder001.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder002{
+    background-image: url("../images/gym/shoulder/shoulder002.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder01{
+    background-image: url("../images/gym/shoulder/shoulder01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder02{
+    background-image: url("../images/gym/shoulder/shoulder02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder03{
+    background-image: url("../images/gym/shoulder/shoulder03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder04{
+    background-image: url("../images/gym/shoulder/shoulder04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder05{
+    background-image: url("../images/gym/shoulder/shoulder05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder06{
+    background-image: url("../images/gym/shoulder/shoulder06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder07{
+    background-image: url("../images/gym/shoulder/shoulder07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder08{
+    background-image: url("../images/gym/shoulder/shoulder08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder09{
+    background-image: url("../images/gym/shoulder/shoulder09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#shoulder10{
+    background-image: url("../images/gym/shoulder/shoulder10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+/* ----------------------------- */
+.bicepsExcerciseImage{
+    background-image: url("../images/gym/biceps/biceps01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#biceps001{
+    background-image: url("../images/gym/biceps/biceps001.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#biceps002{
+    background-image: url("../images/gym/biceps/biceps002.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#biceps01{
+    background-image: url("../images/gym/biceps/biceps01.gif");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps02{
+    background-image: url("../images/gym/biceps/biceps02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps03{
+    background-image: url("../images/gym/biceps/biceps03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps04{
+    background-image: url("../images/gym/biceps/biceps04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps05{
+    background-image: url("../images/gym/biceps/biceps05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps06{
+    background-image: url("../images/gym/biceps/biceps06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps07{
+    background-image: url("../images/gym/biceps/biceps07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps08{
+    background-image: url("../images/gym/biceps/biceps08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps09{
+    background-image: url("../images/gym/biceps/biceps09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#biceps10{
+    background-image: url("../images/gym/biceps/biceps10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+.tricepsExcerciseImage{
+    background-image: url("../images/gym/triceps/triceps01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#triceps01{
+    background-image: url("../images/gym/triceps/triceps01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps02{
+    background-image: url("../images/gym/triceps/triceps02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps03{
+    background-image: url("../images/gym/triceps/triceps03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps04{
+    background-image: url("../images/gym/triceps/triceps04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps05{
+    background-image: url("../images/gym/triceps/triceps05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps06{
+    background-image: url("../images/gym/triceps/triceps06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps07{
+    background-image: url("../images/gym/triceps/triceps07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps08{
+    background-image: url("../images/gym/triceps/triceps08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps09{
+    background-image: url("../images/gym/triceps/triceps09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#triceps10{
+    background-image: url("../images/gym/triceps/triceps10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.legsExcerciseImage{
+    background-image: url("../images/gym/legs/legs01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#legs01{
+    background-image: url("../images/gym/legs/legs01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs02{
+    background-image: url("../images/gym/legs/legs02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs03{
+    background-image: url("../images/gym/legs/legs03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs04{
+    background-image: url("../images/gym/legs/legs04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs05{
+    background-image: url("../images/gym/legs/legs05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs06{
+    background-image: url("../images/gym/legs/legs06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs07{
+    background-image: url("../images/gym/legs/legs07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs08{
+    background-image: url("../images/gym/legs/legs08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs09{
+    background-image: url("../images/gym/legs/legs09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#legs10{
+    background-image: url("../images/gym/legs/legs10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.absExcerciseImage{
+    background-image: url("../images/gym/abs/abs01.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 650px;
+    margin: auto;
+}
+#abs01{
+    background-image: url("../images/gym/abs/abs01.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs02{
+    background-image: url("../images/gym/abs/abs02.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs03{
+    background-image: url("../images/gym/abs/abs03.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs04{
+    background-image: url("../images/gym/abs/abs04.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs05{
+    background-image: url("../images/gym/abs/abs05.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs06{
+    background-image: url("../images/gym/abs/abs06.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs07{
+    background-image: url("../images/gym/abs/abs07.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs08{
+    background-image: url("../images/gym/abs/abs08.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs09{
+    background-image: url("../images/gym/abs/abs09.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#abs10{
+    background-image: url("../images/gym/abs/abs10.jpg");
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}

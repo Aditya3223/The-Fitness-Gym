@@ -1,0 +1,87 @@
+.mainBody{
+    font-family: sans-serif;
+    background-image: url(../images/Background.jpg);
+	/* background-size: 100%;
+	background-repeat: repeat; */
+	background-attachment: fixed;
+}
+.headerBody{
+	font-family: sans-serif;
+}
+.header-block{
+    width: 1334px;
+	height: 80px;
+    margin: auto;
+    border-radius: 5px;
+    /* background-color: rgba(0, 150, 255, 0.7); */
+	/* background:linear-gradient(to right,rgba(0, 150, 255, 0.7),
+	rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.9)
+	,rgba(0, 0, 0, 0.6),rgba(0, 150, 255, 0.7));
+    box-shadow: 0 0 15px #333; */
+   /* border: 1px solid black; */
+   animation: infinite abc 25s;
+}
+@keyframes abc{
+	0%{background-color: rgba(0, 150, 255, 0.7);top: 0px;left: 0px;}
+	25%{background-color: rgba(0, 0, 0, 0.6);top: 0px;left: 200px;}
+	50%{background-color: rgba(255, 255, 255, 0.9);top: 300px;left: 200px;}
+	75%{background-color: rgba(0, 0, 0, 0.6);top: 300px;left: 0px;}
+	100%{background-color: rgba(0, 150, 255, 0.7);top: 0px;left: 0px;}
+}
+.gymLogo{
+	height: 130px;
+	width: 130px;
+	background-image: url(../images/logo.png);
+	background-size: cover;
+	/* border:1px solid red; */
+	float: left;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.topnav{
+	float: right;
+    overflow: hidden;
+    background-color: rgba(0, 90, 255, 0.5);
+    height:40px;
+	width:900px;
+	margin:1.5% auto;
+	border-radius: 5px;
+}
+.topnav ul{
+	margin:0px;
+	padding:0px;
+}
+.topnav li{
+	height:40px;
+	width:148px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:40px;
+	border:1px solid;
+	font-size:20px;
+	color:rgba(0, 0, 255, 0.2);
+	font-family: monotype corsiva;
+}
+.topnav ul li a{
+	text-decoration:none;
+	background-color:rgba(52, 179, 218, 0.425);
+	color:white;
+	display:block;
+}
+.topnav ul li a:hover{
+	font-size:22px;
+	background-color:#ddd;
+	color:black;
+	text-decoration:underline;
+}
+.topnav ul li:hover ul{
+	background-color:rgba(0, 0, 10, 0.2);
+	display: none;
+	position: absolute;
+	display: block;
+	width: 150px;
+}
+.topnav ul li:hover ul {
+	display: block;
+}

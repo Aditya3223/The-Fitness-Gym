@@ -1,0 +1,432 @@
+ /*----------------home page css------------------ */
+ .homeContent{
+    color: #3a3939;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0);
+}
+.homeContent h1{
+    padding-left: 40px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: Edwardian Script ITC;
+}
+.homeContent p{
+    font-size: 30px;
+    font-family: Edwardian Script ITC;
+    color: #3a3939;
+}
+
+#gallary00{
+    background-image: url(../images/gym/display03.jpg);
+    background-size: cover;
+    margin: auto;
+    /* width: 1300px; */
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+}
+#gallary00 h1{
+    color:tomato;
+    /* text-shadow: 10px 10px #3a3939; */
+    font-size: 60px;
+    padding-top: 120px;
+    text-align: left;
+    margin-left: 500px;
+    font-family: Edwardian Script ITC;
+}
+#gallary00 p{
+    color: tomato;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 500px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.transparentContent{
+    margin-top: 800px;
+}
+
+#gymTimingBGImage h1{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.gallaryHome{
+    display: inline-block;
+    margin: auto;
+}
+.schedule{
+    background-image: url(../images/schedule2.jpg);
+    background-size: cover;
+    margin:auto;
+    width: 800px;
+    height: 700px;
+}
+.gallary01{
+    background-image:url(../images/gym/display01.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+
+/* ---------------Gallary line 1-------------- */
+
+#gallaryLine1
+{
+    margin: auto;
+}
+#personalTrainerImage
+{
+    background-image: url(../images/trainer/BecomePersonalTrainer-1024x683.jpg);
+    background-size: cover;
+    float: left;
+    width: 410px;
+    height: 250px;
+    transform: rotate(-10deg);
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#see01 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see01 h2:hover
+{
+    opacity: 0.9;
+}
+#personalTrainerImage:hover{
+    opacity: 0.8;
+}
+#nutritionalImage{
+    background-image: url(../images/nutrition/nutrition03.jpg);
+    background-size: cover;
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+#see02 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see02 h2:hover
+{
+    opacity: 0.9;
+}
+#nutritionalImage:hover{
+    opacity: 0.8;
+}
+#packagesImage{
+    background-image: url(../images/personal-trainer-woman-holding-clipboard-training-plan-gym-personal-trainer-woman-holding-clipboard-training-plan-105071330.jpg);
+    background-size: cover;
+    float: left;
+    width: 410px;
+    height: 250px;
+    transform: rotate(10deg);
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+#see03 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see03 h2:hover
+{
+    opacity: 0.9;
+}
+#packagesImage:hover{
+    opacity: 0.8;
+}
+/*-----------------Gallary line 2-------------------*/
+#yogaImage{
+    background-image: url(../images/yoga/YogaSeHiHoga.jpg);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin: 10px 10px;
+    transition: height 2s,width 2s,transform 2s;
+}
+#yogaImage:hover{
+    height: 250px;
+    width: 300px;
+    transform: rotate(360deg);
+}
+#see04 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see04 h2:hover
+{
+    opacity: 0.9;
+}
+#yogaImage:hover{
+    opacity: 0.8;
+}
+#gymImage{
+    background-image: url(../images/gym/display04.jpg);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px;
+    transition: height 2s,width 2s,transform 2s;
+}
+#gymImage:hover{
+    height: 250px;
+    width: 300px;
+    transform: rotate(360deg);
+}
+#see05 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see05 h2:hover
+{
+    opacity: 0.9;
+}
+#gymImage:hover{
+    opacity: 0.8;
+}
+#boxingImage{
+    background-image: url(../images/boxing/boxing00.jpg);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px;
+    transition: height 2s,width 2s,transform 2s;
+}
+#boxingImage:hover{
+    height: 250px;
+    width: 300px;
+    transform: rotate(360deg);
+}
+#see06 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see06 h2:hover
+{
+    opacity: 0.9;
+}
+#boxingImage:hover{
+    opacity: 0.8;
+}
+#tipImage{
+    background-image: url(../images/tips/19-rest.webp);
+    background-size: cover;
+    width: 300px;
+    float: left;
+    height: 250px;
+    margin: 10px 10px;
+    transition: height 2s,width 2s,transform 2s;
+}
+#tipImage:hover{
+    height: 250px;
+    width: 300px;
+    transform: rotate(360deg);
+}
+#see07 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see07 h2:hover
+{
+    opacity: 0.9;
+}
+#tipImage:hover{
+    opacity: 0.8;
+}
+/*-----------Gallary Line 3-------------*/
+#gallaryLine3
+{
+    margin: auto;
+}
+#accessoriesImage
+{
+    background-image: url(../images/products/accessories/GymsharkBarrelBag-Black-I1A1I-BBBB-Black3_ZH_ZH_600x.webp);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    transform: rotate(10deg);
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#see08 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see08 h2:hover
+{
+    opacity: 0.9;
+}
+#accessoriesImage:hover{
+    opacity: 0.8;
+}
+#supplimentsImage{
+    background-image: url(../images/products/supplements/wheyProtein/BSN\ Syntha\ 6\ Protein\ Powder\ –\ 5\ lbs\,\ 2.27\ kg\ \(Chocolate\ Milkshake\).jpg);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transform: rotate(-10deg);
+}
+#see09 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see09 h2:hover
+{
+    opacity: 0.9;
+}
+#supplimentsImage:hover{
+    opacity: 0.8;
+}
+#equipmentsImage{
+    background-image: url(../images/products/equipment/GFXGSNELegacyKnitLinenBlue.GFXGSNELegacyKnitLinenBlue4_ZH_ZH_bba9abbc-4372-41c9-ab31-15f1cddbdc0f_600x.webp);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transform: rotate(10deg);
+}
+#see10 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see10 h2:hover
+{
+    opacity: 0.9;
+}
+#equipmentsImage:hover{
+    opacity: 0.8;
+}
+#merchandiseImage{
+    background-image: url(../images/products/merchs/BoldHoodieBlackA1A5L.A-Edit_GB_BK_7c8205e3-3a3b-4d36-8dbd-a68beeaed2a3_600x.webp);
+    background-size: cover;
+    float: left;
+    width: 300px;
+    height: 250px;
+    transform: rotate(-10deg);
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#see11 h2
+{
+    width: 410px;
+    height: 250px;
+    margin: auto;
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    opacity: 0.0;
+    font-size: 50px;
+    color:navy;
+}
+#see11 h2:hover
+{
+    opacity: 0.9;
+}
+#merchandiseImage:hover
+{
+    opacity: 0.8;
+}
+.schedulePage
+{
+    background-color: aliceblue;
+    margin-top: 350px;
+    border-radius: 20px;
+}
+.schedulePage h1
+{
+    padding-left: 50px;
+    font-family: Edwardian Script ITC;
+    color: #3a3939;
+    font-size: 50px;
+}
+.schedulePage p
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+    font-family: Edwardian Script ITC;
+    color: #3a3939;
+}
+

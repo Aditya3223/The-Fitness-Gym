@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/header-style.css" type="text/css">
+	<link rel="stylesheet" href="css/contents.css">
+	<link rel="stylesheet" href="css/signin.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<!-- <link rel="stylesheet" type="text/css" href="js/signin.js"> -->
+    <title>Login</title>
+<script type="text/javascript">
+	
+function validate()
+{
+    var  u=document.getElementById("uname");
+    var  p=document.getElementById("pass");
+	if(u.value=="")
+	{
+		if(p.value=="")
+		{
+			var show=document.getElementById("passmsg");
+			show.innerHTML="Name and Password can't be blank"
+			return false;
+		}
+		else
+		{
+			var display=document.getElementById("namemsg");
+			display.innerHTML="Name can't be blank"
+			return false;
+		}
+	}
+	else if(p.value=="")
+	{
+		var show=document.getElementById("passmsg");
+		show.innerHTML="Password can't be blank"
+		return false;
+	}
+    else if(u.value=="admin" && p.value=="123")
+    {
+        alert("Login successful");
+    }
+    else
+    {
+        var show=document.getElementById("msg");
+        show.innerHTML="Please enter correct details"
+        return false;
+    }
+}
+
+</script>
+</head>
+<body class="mainBody">
+	<div class="header-block">
+		<div class="gymLogo">
+			<a href="index.html"></a>
+		</div>
+		<div class="topnav">
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="personalTrainer.html">Services</a>
+					<ul>
+						<li><a href="personalTrainer.html">Personal Trainer</a></li>
+						<li><a href="nutritional.html">Nutritional Guide</a></li>
+						<li><a href="packages.html">Package</a></li>
+					</ul>
+				</li>
+				<li><a href="gym.html">Fitness</a>
+					<ul><li><a href="yoga.html">Yoga</a></li>
+						<li><a href="gym.html">Gym</a></li>
+						<li><a href="boxing.html">Boxing</a></li>
+						<li><a href="tips.html">Fitness Tips</a></li>
+					</ul>
+				</li>
+				<li><a href="suppliments.html">Products</a>
+					<ul>
+						<li><a href="accessories.html">Accessories</a></li>
+						<li><a href="suppliments.html">Suppliments</a></li>
+						<li><a href="equipments.html">Equipment</a></li>
+						<li><a href="merchandise.html">Merchandise</a></li>
+					</ul>
+				</li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="signIn.html">Sign in</a></li>
+			</ul>
+		</div>
+	</div>
+    
+    <div id="loginContent">
+        <div class="logincontainer">
+            <div class="loginheader">
+                <h1>Login</h1>
+            </div>
+
+            <div class="loginmain">
+			
+				<form action="index.html" method="post">
+					<input type="text" id="uname" placeholder="Username"><br>
+						<label id="namemsg" style="color:red"></label><br>
+					<input type="password" id="pass" placeholder="Password"><br>
+						<label id="passmsg" style="color:red"></label><br>
+					<button onclick="return validate()">Login</button><br>
+					<label id="msg" style="color:red"></label><br>
+				</form>
+					<hr>
+				<a href="Register.html">If not a user Click here to Register.</a>
+					<br><br>
+
+			</div>
+		</div>
+	</div>
+
+<div class="footerBody">
+		<div class="footerContainer">
+			<div class="addressBlock">
+				<h4>Address</h4>
+					<ul>
+						<li>4888 Wilson Street</li>
+						<li>Victorville, CA 92392</li>
+						<li><br></li>
+						<li>012-345-6789</li>
+						<li><br></li>
+						<li><a href="index.html">info@fitnessgym.com</a></li>
+					</ul>
+			</div>
+			<div class="servicesBlock">
+				<h4>Serivces</h4>
+					<ul>    
+						<li><a href="personalTrainer.html">Personal Trainer</a></li>
+						<li><a href="nutritional.html">Nutritional Guide</a></li>
+						<li><a href="packages.html">Package</a></li>
+					</ul>
+			</div>
+			<div class="fitnessBlock">
+				<h4>Fitness</h4>
+					<ul>
+						<li><a href="yoga.html">Yoga</a></li>
+						<li><a href="gym.html">Gym</a></li>
+						<li><a href="boxing.html">Boxing</a></li>
+						<li><a href="tips.html">Fitness Tips</a></li>
+					</ul>
+			</div>
+			<div class="productBlock">
+				<h4>Products</h4>
+					<ul>
+						<li><a href="accessories.html">Accessories</a></li>
+						<li><a href="suppliments.html">Suppliments</a></li>
+						<li><a href="equipments.html">Equipment</a></li>
+						<li><a href="merchandise.html">Merchandise</a></li>
+					</ul>
+			</div>
+			<div class="socialMediaBlock">
+				<form action="#" method="post" id="newsletter">
+					<h4>Join Our Newsletter</h4>
+					<input type="text" value="Enter Email Address Here For Updates" size="35"><br> 
+					<input type="submit" value="Sign up" class="btn2" />
+				</form>
+				<div>
+					<div id="socialBlock">
+						<h4>Social Media</h4>
+					</div>
+					<div>
+						<div id="facebook"><a href="#"><img src="../images/iconFacebook.png" alt="facebook" height="36px" width="36px"></div></a>
+						<div id="twitter"><a href="#"><img src="../images/iconTwitter.png" alt="facebook" height="40px" width="40px"></div></a>
+						<div id="instagram"><a href="#"><img src="../images/iconInstagram.png" alt="facebook" height="40px" width="40px"></div></a>
+						<div id="youtube"><a href="#"><img src="../images/iconYoutube.png" alt="facebook" height="40px" width="40px"></div></a>
+					</div>
+				</div>
+			</div>
+			<div id="footerNote">
+				© Copyright 2023. All Rights Reserved.
+			</div>
+		</div>
+</div> 
+</body>
+</html>
